@@ -181,13 +181,15 @@ article {
     }
 
 }
-@media (max-width:992px){
-    .multimedia{
+
+@media (max-width:992px) {
+    .multimedia {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    h3{
+
+    h3 {
         font-size: 3rem;
     }
 
@@ -205,37 +207,38 @@ article {
         border-collapse: collapse;
         margin-left: 1em;
 
+    }
+
+    thead {
+        background: rgba(34, 34, 216, 0.5)
+    }
+
+    th {
+        padding: 1em 2.1em;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    td {
+        padding: 1em;
+        border-bottom: solid 1px rgba(211, 35, 35, 0.4);
+    }
+
+    tbody tr {
+        cursor: pointer;
+    }
+
+    tbody tr:hover {
+        background-color: rgba(150, 21, 21, 0.7);
+
+    }
 }
-        thead {
-            background: rgba(34, 34, 216, 0.5)
-        }
 
-        th {
-            padding: 1em 2.1em;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        td {
-            padding: 1em;
-            border-bottom: solid 1px rgba(211, 35, 35, 0.4);
-        }
-
-        tbody tr {
-            cursor: pointer;
-        }
-
-        tbody tr:hover {
-            background-color: rgba(150, 21, 21, 0.7);
-
-        }
-    }
-
-    .box {
-        padding-left: 6rem;
-        width: 10em;
-        height: 10em;
-    }
+.box {
+    padding-left: 6rem;
+    width: 10em;
+    height: 10em;
+}
 
 
 /*productos*/
@@ -246,17 +249,19 @@ article {
     grid-template-rows: repeat (4, 180px);
     justify-content: space-around;
     align-items: center;
-    @media (max-width: 992px){
+
+    @media (max-width: 992px) {
         display: grid;
         gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
     }
-        @media (max-width: 768px){
-            display: grid;
-            gap: 1rem;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
+
+    @media (max-width: 768px) {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }
 
     @media (max-width: 576px) {
@@ -265,9 +270,9 @@ article {
         grid-template-columns: 1fr;
         justify-items: center;
     }
-   
-    
-  
+
+
+
 
 }
 
@@ -278,17 +283,18 @@ article {
     grid-template-rows: repeat (4, 180px);
     justify-content: space-around;
 
-    @media (max-width: 992px){
+    @media (max-width: 992px) {
         display: grid;
         gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
     }
-        @media (max-width: 768px){
-            display: grid;
-            gap: 1rem;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
+
+    @media (max-width: 768px) {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }
 
     @media (max-width: 576px) {
@@ -376,20 +382,24 @@ article {
     color: white;
 
 }
+
 .info {
     border: solid 0.1rem black;
     background: linear-gradient(black, white);
     display: flex;
     flex-direction: column;
     align-content: center;
+
     .detalle .lee {
         padding-top: 0.1rem;
         color: white;
         text-align: left;
-        ol .lee{
+
+        ol .lee {
             list-style: none;
             text-decoration: none;
         }
+
         li .lee {
             margin-top: 1rem;
             list-style-type: none;
@@ -400,13 +410,91 @@ article {
 .operadora {
     height: 10rem;
     width: 8rem;
-  
+
 }
 
 .gps .map {
     border-radius: 4rem;
     opacity: 0.6;
 }
+
+/*about*/
+@media (max-width:768px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.historia {
+    font-size: 1.5rem;
+    padding: .5em;
+    color: rgb(254, 253, 253);
+    text-align: center;
+}
+
+.consolidacion {
+    color: rgb(255, 255, 255);
+}
+
+.inicia {
+    color: rgb(5, 5, 5);
+
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+.pictur {
+    width: 23rem;
+    height: 20rem;
+    padding-bottom: 0.5em;
+    padding-left: 1rem;
+    transition: all 0.5s linear; 
+}
+.pictur:hover {
+    transform: scale(0.9);
+    border-radius: 100%;
+}
+/*segunda section about*/
+.presentacion {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+    .integrantes {
+        width: 90%;
+        padding-left: 0.2rem;
+        transition: all 0.9s linear;
+        padding-bottom: 1rem;
+    }
+    .integrantes:hover {
+        transform: translate(2rem, -10%);
+
+    }
+    .ejecutivo {
+        position: static;
+        height: 15rem;
+
+    }
+    p {
+        font-size: 0.8rem;
+        color: red;
+        text-align: center;
+        padding-top: 0.4rem;
+    }
+    .formacion {
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-size: 3rem;
+    }
+}
+
+
+
+
+
 /*login*/
 .title {
     color: white;
@@ -414,50 +502,59 @@ article {
     padding-top: 1rem;
     font-size: 1.4rem;
 }
+
 .clientes h4 {
     color: rgb(21, 20, 20);
     font-size: 1.9rem;
 
 }
-.reg{
+
+.reg {
     font-size: 3rem;
     padding: 0%;
 }
+
 .reg2 {
     font-size: 2.5rem;
 
 }
-@media (max-width:768px){
-    .one{
+
+@media (max-width:768px) {
+    .one {
         display: flex;
         flex-direction: column;
     }
 }
+
 #inicio,
 .registro {
-    background: rgba( 241, 96, 96, 0.4 );
+    background: rgba(241, 96, 96, 0.4);
     box-shadow: 0 1rem 5rem 0 rgba(6, 20, 215, 0.37);
-    backdrop-filter: blur( 4.5px );
-    -webkit-backdrop-filter: blur( 4.5px );
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
     border-radius: 1rem;
     border: 0.2rem solid rgba(82, 15, 217, 0.18);
     margin-top: 1rem;
     padding-left: 1rem;
 }
+
 .containe {
     padding-left: 1.5rem;
     margin-bottom: .8rem;
 }
+
 .inicie {
     width: 9rem;
     height: 9rem;
 }
+
 .containe button {
     height: 1.5rem;
     width: 40%;
     background: rgb(27, 15, 247);
     font-size: 0.6rem;
     color: rgb(255, 255, 255);
+
     .containe button:hover,
     button:focus {
         background: #02023c;
@@ -465,12 +562,14 @@ article {
         font-size: 0.9rem;
     }
 }
+
 .registro button {
     height: 1.5rem;
     width: 40%;
     background: rgb(27, 15, 247);
     font-size: 0.6rem;
     color: rgb(255, 255, 255);
+
     .registro button:hover,
     button:focus {
         background: #02023c;
@@ -478,29 +577,35 @@ article {
         font-size: 0.9rem;
     }
 }
+
 /*card clientes*/
 .retrato {
     width: 100%;
     height: 100%;
 }
+
 .flip-container {
     background-color: transparent;
     width: 15rem;
     height: 15rem;
-    perspective: 1000px; 
-  }
-  .target {
+    perspective: 1000px;
+}
+
+.target {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 1s;
     transform-style: preserve-3d;
-  }
-  .flip-container:hover .target {
+}
+
+.flip-container:hover .target {
     transform: rotateY(180deg);
-  }
-  .front, .back {
+}
+
+.front,
+.back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -509,16 +614,18 @@ article {
     align-items: center;
     justify-content: center;
     font-size: 0.8rem;
-  }
-  .front {
+}
+
+.front {
     background-color: #6a0b59;
     color: #fff;
-    
-  }
-  .back {
-    background:linear-gradient(gray, black);
+
+}
+
+.back {
+    background: linear-gradient(gray, black);
     color: white;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
-  }
+}

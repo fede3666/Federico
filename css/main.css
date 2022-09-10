@@ -5,6 +5,7 @@
   box-sizing: border-box; }
 
 body {
+  background: no-repeat;
   background-attachment: cover;
   background: linear-gradient(4deg, #020119, #094979, #00c0ff);
   overflow-x: hidden;
@@ -410,6 +411,65 @@ article {
   border-radius: 4rem;
   opacity: 0.6; }
 
+/*about*/
+@media (max-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column; } }
+
+.historia {
+  font-size: 1.5rem;
+  padding: .5em;
+  color: #fefdfd;
+  text-align: center; }
+
+.consolidacion {
+  color: white; }
+
+.inicia {
+  color: #050505;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 0.5em; }
+
+.pictur {
+  width: 23rem;
+  height: 20rem;
+  padding-bottom: 0.5em;
+  padding-left: 1rem;
+  transition: all 0.5s linear; }
+
+.pictur:hover {
+  transform: scale(0.9);
+  border-radius: 100%; }
+
+/*segunda section about*/
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  .presentacion .integrantes {
+    width: 90%;
+    padding-left: 0.2rem;
+    transition: all 0.9s linear;
+    padding-bottom: 1rem; }
+  .presentacion .integrantes:hover {
+    transform: translate(2rem, -10%); }
+  .presentacion .ejecutivo {
+    position: static;
+    height: 15rem; }
+  .presentacion p {
+    font-size: 0.8rem;
+    color: red;
+    text-align: center;
+    padding-top: 0.4rem; }
+  .presentacion .formacion {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem; }
+
 /*login*/
 .title {
   color: white;
@@ -498,7 +558,8 @@ article {
 .flip-container:hover .target {
   transform: rotateY(180deg); }
 
-.front, .back {
+.front,
+.back {
   position: absolute;
   width: 100%;
   height: 100%;
