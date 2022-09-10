@@ -1,0 +1,520 @@
+/*cuerpo*/
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-attachment: cover;
+  background: linear-gradient(4deg, #020119, #094979, #00c0ff);
+  overflow-x: hidden;
+  text-align: center;
+  text-transform: capitalize; }
+
+/*header*/
+.logo {
+  margin-left: 2rem;
+  width: 5rem;
+  height: 4rem;
+  border-radius: 100%; }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%; }
+
+/*footer*/
+.motivacion {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem; }
+
+.end {
+  color: white;
+  font-size: 1em;
+  text-align: center; }
+
+@media (max-width: 576px) {
+  .logo {
+    margin-left: 2rem;
+    width: 5rem;
+    height: 4rem;
+    border-radius: 100%; }
+    .logo img {
+      width: 100%;
+      height: 100%;
+      border-radius: 100%; } }
+
+/*banner de publicidad*/
+.publicidades {
+  margin-top: 0.1rem;
+  width: 100%;
+  height: 20rem; }
+
+ul.publi {
+  position: relative;
+  width: 100%;
+  height: 16rem; }
+
+ul.publi li {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity .5s; }
+
+ul.publi li img {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover; }
+
+ul.publi li:first-child {
+  opacity: 2; }
+
+ul.publi li:target {
+  opacity: 1; }
+
+.direcional {
+  text-align: center;
+  margin: 2em; }
+
+.direcional li {
+  display: inline-block;
+  text-align: center; }
+
+.direcional li a {
+  display: inline-block;
+  color: #ff0202 0.9;
+  text-decoration: none;
+  background-color: red;
+  padding: 1em;
+  width: 1em;
+  height: 1em;
+  font-size: .5em;
+  border-radius: 110%; }
+
+section span,
+article span {
+  color: #FA003F; }
+
+section h2,
+article h2 {
+  color: white;
+  font-size: 2rem;
+  padding: 0.1rem; }
+
+section h3,
+article h3 {
+  color: white;
+  font-size: 2rem;
+  padding: 0.1rem; }
+
+section h4,
+article h4 {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem; }
+
+section h5,
+article h5 {
+  color: white;
+  font-size: 1rem;
+  padding: 0.1rem; }
+
+section h6,
+article h6 {
+  color: white;
+  font-size: 1rem;
+  padding: 0.1rem; }
+
+section #slider,
+article #slider {
+  width: 30rem;
+  height: 25rem;
+  background-color: red;
+  background: cover;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 20px;
+  overflow: hidden; }
+
+section #contenedor2,
+article #contenedor2 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100% 100% 100% 100% 100% 100%;
+  animation-name: mover;
+  animation-duration: 50s;
+  animation-iteration-count: infinite; }
+
+section #imagen1,
+article #imagen1 {
+  background-image: url(../imagnes/THERMALTAKE.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: white; }
+
+section #imagen2,
+article #imagen2 {
+  background-image: url(../imagnes/rm1000.png);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: #d9d9ff; }
+
+section #imagen3,
+article #imagen3 {
+  background-image: url(./imagenes/3.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet; }
+
+section #imagen4,
+article #imagen4 {
+  background-image: url(./imagenes/4.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: black; }
+
+section #imagen5,
+article #imagen5 {
+  background-image: url(./imagenes/5.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: white; }
+
+section #imagen6,
+article #imagen6 {
+  background-image: url(./imagenes/6.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: blue; }
+
+@keyframes mover {
+  10% {
+    margin-left: -100%; }
+  20% {
+    margin-left: -200%; }
+  30% {
+    margin-left: -300%; }
+  40% {
+    margin-left: -400%; }
+  50% {
+    margin-left: -500%; }
+  60% {
+    margin-left: -600%; }
+  70% {
+    margin-left: -700%; }
+  80% {
+    margin-left: -800%; }
+  90% {
+    margin-left: -900%; }
+  100% {
+    margin-left: -100%; } }
+
+@media (max-width: 992px) {
+  .multimedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  h3 {
+    font-size: 3rem; } }
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+  article table {
+    color: white;
+    font-size: 1em;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: 1em; }
+  article thead {
+    background: rgba(34, 34, 216, 0.5); }
+  article th {
+    padding: 1em 2.1em;
+    font-weight: 700;
+    text-transform: uppercase; }
+  article td {
+    padding: 1em;
+    border-bottom: solid 1px rgba(211, 35, 35, 0.4); }
+  article tbody tr {
+    cursor: pointer; }
+  article tbody tr:hover {
+    background-color: rgba(150, 21, 21, 0.7); }
+
+.box {
+  padding-left: 6rem;
+  width: 10em;
+  height: 10em; }
+
+/*productos*/
+.car__ventas .contiene {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat 4, 180px;
+  justify-content: space-around;
+  align-items: center; }
+  @media (max-width: 992px) {
+    .car__ventas .contiene {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center; } }
+  @media (max-width: 768px) {
+    .car__ventas .contiene {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center; } }
+  @media (max-width: 576px) {
+    .car__ventas .contiene {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr;
+      justify-items: center; } }
+
+.car__ventas .contiene2 {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat 4, 180px;
+  justify-content: space-around; }
+  @media (max-width: 992px) {
+    .car__ventas .contiene2 {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center; } }
+  @media (max-width: 768px) {
+    .car__ventas .contiene2 {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center; } }
+  @media (max-width: 576px) {
+    .car__ventas .contiene2 {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr;
+      justify-items: center; } }
+
+.produc__graf {
+  font-size: 1rem;
+  color: coral; }
+
+.contiene img {
+  height: 12rem;
+  width: 12rem;
+  font-size: 1rem;
+  border-radius: 3rem; }
+
+.contiene2 img {
+  height: 12rem;
+  width: 12rem;
+  font-size: o 0.9rem;
+  border-radius: 3rem; }
+
+.card {
+  height: 20rem;
+  width: 15rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 2px 7px 5px #9c9a9a;
+  border-radius: 3rem;
+  transition: all 0.8s linear; }
+
+.card:hover {
+  transform: scale(1.2); }
+
+.card-venta {
+  color: black;
+  font-size: 1rem; }
+  .card-venta ol {
+    list-style: none;
+    text-decoration: none; }
+  .card-venta link {
+    list-style: none; }
+
+.car__ventas .butom:hover {
+  font-size: 1rem;
+  background-color: #cf4d4d;
+  width: 5rem;
+  border: solid 1px #bd1a1a;
+  box-shadow: 1px 2px 7px 5px #9c9a9a;
+  transform: translateZ(-3px);
+  transition: all 0.7s ease; }
+
+/*contactos*/
+.chat {
+  border: solid 0.1rem black;
+  background: linear-gradient(red, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 35rem;
+  color: white; }
+
+.info {
+  border: solid 0.1rem black;
+  background: linear-gradient(black, white);
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+  .info .detalle .lee {
+    padding-top: 0.1rem;
+    color: white;
+    text-align: left; }
+    .info .detalle .lee ol .lee {
+      list-style: none;
+      text-decoration: none; }
+    .info .detalle .lee li .lee {
+      margin-top: 1rem;
+      list-style-type: none; }
+
+.operadora {
+  height: 10rem;
+  width: 8rem; }
+
+.gps .map {
+  border-radius: 4rem;
+  opacity: 0.6; }
+
+/*login*/
+.title {
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.4rem; }
+
+.clientes h4 {
+  color: #151414;
+  font-size: 1.9rem; }
+
+.reg {
+  font-size: 3rem;
+  padding: 0%; }
+
+.reg2 {
+  font-size: 2.5rem; }
+
+@media (max-width: 768px) {
+  .one {
+    display: flex;
+    flex-direction: column; } }
+
+#inicio,
+.registro {
+  background: rgba(241, 96, 96, 0.4);
+  box-shadow: 0 1rem 5rem 0 rgba(6, 20, 215, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 1rem;
+  border: 0.2rem solid rgba(82, 15, 217, 0.18);
+  margin-top: 1rem;
+  padding-left: 1rem; }
+
+.containe {
+  padding-left: 1.5rem;
+  margin-bottom: .8rem; }
+
+.inicie {
+  width: 9rem;
+  height: 9rem; }
+
+.containe button {
+  height: 1.5rem;
+  width: 40%;
+  background: #1b0ff7;
+  font-size: 0.6rem;
+  color: white; }
+  .containe button .containe button:hover,
+  .containe button button:focus {
+    background: #02023c;
+    color: white;
+    font-size: 0.9rem; }
+
+.registro button {
+  height: 1.5rem;
+  width: 40%;
+  background: #1b0ff7;
+  font-size: 0.6rem;
+  color: white; }
+  .registro button .registro button:hover,
+  .registro button button:focus {
+    background: #02023c;
+    color: white;
+    font-size: 0.9rem; }
+
+/*card clientes*/
+.retrato {
+  width: 100%;
+  height: 100%; }
+
+.flip-container {
+  background-color: transparent;
+  width: 15rem;
+  height: 15rem;
+  perspective: 1000px; }
+
+.target {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d; }
+
+.flip-container:hover .target {
+  transform: rotateY(180deg); }
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem; }
+
+.front {
+  background-color: #6a0b59;
+  color: #fff; }
+
+.back {
+  background: linear-gradient(gray, black);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column; }

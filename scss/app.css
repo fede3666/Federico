@@ -1,0 +1,324 @@
+/*cuerpo*/
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-attachment: cover;
+  background: linear-gradient(4deg, #020119, #094979, #00c0ff);
+  font-size: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*header*/
+.logo {
+  margin-left: 2rem;
+  width: 5rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+/*footer*/
+.motivacion {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem;
+}
+
+.end {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    margin-left: 2rem;
+    width: 5rem;
+    height: 4rem;
+    border-radius: 100%;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+}
+/*banner de publicidad*/
+.publicidades {
+  margin-top: 0.1rem;
+  width: 100%;
+  height: 20rem;
+}
+
+ul.publi {
+  position: relative;
+  width: 100%;
+  height: 16rem;
+}
+
+ul.publi li {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity 0.5s;
+}
+
+ul.publi li img {
+  width: 100%;
+  height: 18rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+ul.publi li:first-child {
+  opacity: 2;
+}
+
+ul.publi li:target {
+  opacity: 1;
+}
+
+.direcional {
+  text-align: center;
+  margin: 2em;
+}
+
+.direcional li {
+  display: inline-block;
+  text-align: center;
+}
+
+.direcional li a {
+  display: inline-block;
+  color: rgb(255, 2, 2) 0.9;
+  text-decoration: none;
+  background-color: rgb(255, 0, 0);
+  padding: 1em;
+  width: 1em;
+  height: 1em;
+  font-size: 0.5em;
+  border-radius: 110%;
+}
+
+section span, article span {
+  color: #FA003F;
+}
+section h2, article h2 {
+  color: white;
+  font-size: 2rem;
+  padding: 0.9rem;
+}
+section h3, article h3 {
+  color: white;
+  font-size: 2rem;
+  padding: 0.9rem;
+}
+section h4, article h4 {
+  color: white;
+  font-size: 2rem;
+  padding: 0.9rem;
+}
+section h5, article h5 {
+  color: white;
+  font-size: 2rem;
+  padding: 0.9rem;
+}
+section h6, article h6 {
+  color: white;
+  font-size: 2rem;
+  padding: 0.9rem;
+}
+section #slider, article #slider {
+  width: 30rem;
+  height: 25rem;
+  background-color: red;
+  background: cover;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+section #contenedor2, article #contenedor2 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100% 100% 100% 100% 100% 100%;
+  -webkit-animation-name: mover;
+          animation-name: mover;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+section #imagen1, article #imagen1 {
+  background-image: url(../imagnes/THERMALTAKE.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+}
+section #imagen2, article #imagen2 {
+  background-image: url(../imagnes/rm1000.png);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(217, 217, 255);
+}
+section #imagen3, article #imagen3 {
+  background-image: url(./imagenes/3.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet;
+}
+section #imagen4, article #imagen4 {
+  background-image: url(./imagenes/4.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+section #imagen5, article #imagen5 {
+  background-image: url(./imagenes/5.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+}
+section #imagen6, article #imagen6 {
+  background-image: url(./imagenes/6.jpg);
+  width: 30rem;
+  height: 25rem;
+  border: solid 0.2rem black;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-color: blue;
+}
+@-webkit-keyframes mover {
+  10% {
+    margin-left: -100%;
+  }
+  20% {
+    margin-left: -200%;
+  }
+  30% {
+    margin-left: -300%;
+  }
+  40% {
+    margin-left: -400%;
+  }
+  50% {
+    margin-left: -500%;
+  }
+  60% {
+    margin-left: -600%;
+  }
+  70% {
+    margin-left: -700%;
+  }
+  80% {
+    margin-left: -800%;
+  }
+  90% {
+    margin-left: -900%;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+@keyframes mover {
+  10% {
+    margin-left: -100%;
+  }
+  20% {
+    margin-left: -200%;
+  }
+  30% {
+    margin-left: -300%;
+  }
+  40% {
+    margin-left: -400%;
+  }
+  50% {
+    margin-left: -500%;
+  }
+  60% {
+    margin-left: -600%;
+  }
+  70% {
+    margin-left: -700%;
+  }
+  80% {
+    margin-left: -800%;
+  }
+  90% {
+    margin-left: -900%;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+article table {
+  color: white;
+  font-size: 1em;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-left: 1em;
+}
+article table thead {
+  background: rgba(34, 34, 216, 0.5);
+}
+article table th {
+  padding: 1em 2.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+article table td {
+  padding: 1em;
+  border-bottom: solid 1px rgba(211, 35, 35, 0.4);
+}
+article table tbody tr {
+  cursor: pointer;
+}
+article table tbody tr:hover {
+  background-color: rgba(150, 21, 21, 0.7);
+}
+article .box {
+  padding-left: 6rem;
+  width: 10em;
+  height: 10em;
+}/*# sourceMappingURL=app.css.map */
