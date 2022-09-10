@@ -277,7 +277,7 @@ article {
 /*productos*/
 .car__ventas .contiene {
   display: grid;
-  gap: 0.5rem;
+  gap: 2rem;
   grid-template-columns: repeat(4, 200px);
   grid-template-rows: repeat 4, 180px;
   justify-content: space-around;
