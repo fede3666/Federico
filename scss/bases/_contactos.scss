@@ -1,0 +1,47 @@
+/*contactos*/
+.chat {
+    border: solid 0.1rem black;
+    background: linear-gradient(red, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 35rem;
+    color: white;
+
+}
+
+.info {
+    border: solid 0.1rem black;
+    background: linear-gradient(black, white);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    .detalle .lee {
+        padding-top: 0.1rem;
+        color: white;
+        text-align: left;
+
+        ol .lee {
+            list-style: none;
+            text-decoration: none;
+        }
+
+        li .lee {
+            margin-top: 1rem;
+            list-style-type: none;
+        }
+    }
+}
+
+.operadora {
+    height: 10rem;
+    width: 8rem;
+
+}
+
+.gps .map {
+    border-radius: 4rem;
+    opacity: 0.6;
+}

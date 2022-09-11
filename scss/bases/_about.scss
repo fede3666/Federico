@@ -1,0 +1,72 @@
+/*about*/
+@media (max-width:768px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.historia {
+    font-size: 1.5rem;
+    padding: .5em;
+    color: rgb(254, 253, 253);
+    text-align: center;
+}
+
+.consolidacion {
+    color: rgb(255, 255, 255);
+}
+
+.inicia {
+    color: rgb(5, 5, 5);
+
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+.pictur {
+    width: 23rem;
+    height: 20rem;
+    padding-bottom: 0.5em;
+    padding-left: 1rem;
+    transition: all 0.5s linear; 
+}
+.pictur:hover {
+    transform: scale(0.9);
+    border-radius: 100%;
+}
+/*segunda section about*/
+.presentacion {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+    .integrantes {
+        width: 90%;
+        padding-left: 0.2rem;
+        transition: all 0.9s linear;
+        padding-bottom: 1rem;
+    }
+    .integrantes:hover {
+        transform: translate(2rem, -10%);
+
+    }
+    .ejecutivo {
+        position: static;
+        height: 15rem;
+
+    }
+    p {
+        font-size: 0.8rem;
+        color: red;
+        text-align: center;
+        padding-top: 0.4rem;
+    }
+    .formacion {
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-size: 3rem;
+    }
+}
