@@ -41,9 +41,10 @@
         }
     }
 }
-.texs h1{
+.texs h5{
+    font-size: 3rem;
     color: red;
-    padding: 2rem;
+    padding: 1rem;
 }
 .operadora {
     height: 5rem;
@@ -58,7 +59,7 @@
 @media(max-width:576px){
     iframe{
         width: 15rem;
-        height: 12rem;
+        height: 15rem;
     }
 }
 .red {
