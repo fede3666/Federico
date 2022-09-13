@@ -4,6 +4,9 @@
     margin-top: 0.1rem;
     width: 100%;
     height: 25rem;
+    @media(max-width:576px){
+        display: none;
+    }
     
 }
 .baner{
