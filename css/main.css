@@ -103,12 +103,12 @@ article h6 {
   transition: all linear 1s; }
   @media (max-width: 992px) {
     .promo {
-      width: 20rem;
-      height: 17rem; } }
+      width: 24rem;
+      height: 24rem; } }
   @media (max-width: 576px) {
     .promo {
-      width: 18rem;
-      height: 16rem; } }
+      width: 20rem;
+      height: 20rem; } }
 
 .promo:hover {
   transform: scale(1.4); }
