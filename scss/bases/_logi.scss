@@ -59,14 +59,14 @@
     font-size: 0.6rem;
     color: rgb(255, 255, 255);
 
-    .containe button:hover,
-    button:focus {
-        background: #02023c;
-        color: white;
-        font-size: 0.9rem;
-    }
+   
 }
-
+.containe button:hover,
+button:focus {
+    background: #02023c;
+    color: white;
+    font-size: 0.9rem;
+}
 .registro button {
     height: 1.5rem;
     width: 40%;
@@ -74,13 +74,14 @@
     font-size: 0.6rem;
     color: rgb(255, 255, 255);
 
-    .registro button:hover,
+    
+}
+.registro button:hover,
     button:focus {
         background: #02023c;
         color: white;
         font-size: 0.9rem;
     }
-}
 
 /*card clientes*/
 .retrato {

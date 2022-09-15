@@ -91,14 +91,28 @@ article h6 {
   font-size: 1rem;
   padding: 0.1rem; }
 
+.galeria {
+  width: 25rem;
+  height: 25rem;
+  position: sticky;
+  overflow: hidden;
+  border-radius: 50rem; }
+
 .promo {
   width: 30rem;
-  height: 25rem;
-  padding-top: 3rem; }
+  height: 30rem;
+  transition: all linear 1s; }
+  @media (max-width: 992px) {
+    .promo {
+      width: 20rem;
+      height: 17rem; } }
   @media (max-width: 576px) {
     .promo {
-      width: 18rem;
-      height: 15rem; } }
+      width: 15rem;
+      height: 11rem; } }
+
+.promo:hover {
+  transform: scale(1.2); }
 
 @media (max-width: 992px) {
   .multimedia {
@@ -465,11 +479,12 @@ ul.publi li:target {
   background: #1b0ff7;
   font-size: 0.6rem;
   color: white; }
-  .containe button .containe button:hover,
-  .containe button button:focus {
-    background: #02023c;
-    color: white;
-    font-size: 0.9rem; }
+
+.containe button:hover,
+button:focus {
+  background: #02023c;
+  color: white;
+  font-size: 0.9rem; }
 
 .registro button {
   height: 1.5rem;
@@ -477,11 +492,12 @@ ul.publi li:target {
   background: #1b0ff7;
   font-size: 0.6rem;
   color: white; }
-  .registro button .registro button:hover,
-  .registro button button:focus {
-    background: #02023c;
-    color: white;
-    font-size: 0.9rem; }
+
+.registro button:hover,
+button:focus {
+  background: #02023c;
+  color: white;
+  font-size: 0.9rem; }
 
 /*card clientes*/
 .retrato {
