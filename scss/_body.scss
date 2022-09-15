@@ -1,5 +1,7 @@
 /*cuerpo*/
-
+.navega{
+    background-color: #0b8df0;
+}
 * {
     padding: 0%;
     margin: 0%;
@@ -10,7 +12,7 @@ body {
 
     background: no-repeat;
     background-attachment: cover;
-    background: linear-gradient(4deg, #020119, #094979, #00c0ff);
+    background: linear-gradient(1deg, black, rgb(34, 34, 34));
     overflow-x: hidden;
     text-align: center;
     text-transform: capitalize;

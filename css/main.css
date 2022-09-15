@@ -4,6 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200;1,300;1,400;1,500&display=swap");
 /*cuerpo*/
+.navega {
+  background-color: #0b8df0; }
+
 * {
   padding: 0%;
   margin: 0%;
@@ -12,7 +15,7 @@
 body {
   background: no-repeat;
   background-attachment: cover;
-  background: linear-gradient(4deg, #020119, #094979, #00c0ff);
+  background: linear-gradient(1deg, black, #222222);
   overflow-x: hidden;
   text-align: center;
   text-transform: capitalize; }
