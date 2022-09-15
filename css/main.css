@@ -107,8 +107,8 @@ article h6 {
       height: 17rem; } }
   @media (max-width: 576px) {
     .promo {
-      width: 15rem;
-      height: 11rem; } }
+      width: 18rem;
+      height: 16rem; } }
 
 .promo:hover {
   transform: scale(1.4); }
