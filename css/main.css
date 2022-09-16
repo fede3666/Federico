@@ -474,14 +474,14 @@ ul.publi li:target {
   color: white; }
 
 .inicia, .continua, .firma {
-  color: white;
+  color: #dfd8d8;
   font-family: Josefin Sans;
   font-size: 1.2rem;
   text-align: center;
   padding-bottom: 0.5em; }
 
 .continua {
-  color: white; }
+  color: #f9cfcf; }
 
 .firma {
   color: #fdecec; }

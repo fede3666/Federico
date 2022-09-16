@@ -13,14 +13,14 @@
 }
 
 .inicia {
-    color: white;
+    color: rgb(223, 216, 216);
     font-family: $primary-grafia;
     font-size: 1.2rem;
     text-align: center;
     padding-bottom: 0.5em;
 }
 .continua{
-    color: white;
+    color: rgb(249, 207, 207);
     @extend .inicia
 }
 .firma{
