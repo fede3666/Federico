@@ -13,11 +13,20 @@
 }
 
 .inicia {
-    color: rgb(5, 5, 5);
-    font-family: $quintuple-grafi;
+    color: white;
+    font-family: $primary-grafia;
     font-size: 1.2rem;
     text-align: center;
     padding-bottom: 0.5em;
+}
+.continua{
+    color: white;
+    @extend .inicia
+}
+.firma{
+    color: rgb(253, 236, 236);
+    @extend .inicia
+    
 }
 
 .pictur {

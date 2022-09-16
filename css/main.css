@@ -54,6 +54,7 @@ body {
       height: 100%;
       border-radius: 100%; } }
 
+/*index*/
 section span,
 article span {
   color: #FA003F; }
@@ -472,12 +473,18 @@ ul.publi li:target {
 .consolidacion {
   color: white; }
 
-.inicia {
-  color: #050505;
-  font-family: Edu QLD Beginner;
+.inicia, .continua, .firma {
+  color: white;
+  font-family: Josefin Sans;
   font-size: 1.2rem;
   text-align: center;
   padding-bottom: 0.5em; }
+
+.continua {
+  color: white; }
+
+.firma {
+  color: #fdecec; }
 
 .pictur {
   width: 20rem;
