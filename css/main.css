@@ -15,7 +15,7 @@
 body {
   background: no-repeat;
   background-attachment: cover;
-  background: linear-gradient(1deg, black, #222222);
+  background-color: #a4d3fd;
   overflow-x: hidden;
   text-align: center;
   text-transform: capitalize; }
