@@ -13,6 +13,7 @@
     border: 0.2rem solid rgba(82, 15, 217, 0.18);
     margin-top: 1rem;
     padding-left: 1rem;
+  
 
 }
 
@@ -25,6 +26,8 @@
     border: 0.2rem solid rgba(82, 15, 217, 0.18);
     margin-top: 1rem;
     padding-left: 1rem;
+    box-sizing: border-box;
+    list-style-type: nonw;
 
     .detalle .lee {
         padding-top: 0.1rem;

@@ -5,18 +5,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200;1,300;1,400;1,500&display=swap");
 /*cuerpo*/
 .navega {
-  background-color: #0b8df0; }
+  background-color: #0b8df0;
+  width: 100%; }
 
 * {
   padding: 0%;
-  margin: 0%;
-  box-sizing: border-box; }
+  margin: 0%; }
 
 body {
   background: no-repeat;
   background-attachment: cover;
   background-color: #a4d3fd;
-  overflow-x: hidden;
   text-align: center;
   text-transform: capitalize; }
 
@@ -62,16 +61,18 @@ article span {
 section h2,
 article h2 {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: Anton;
-  padding: 2rem; }
+  box-sizing: border-box;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
 section h3,
 article h3 {
   color: white;
   font-size: 2rem;
   font-family: Anton;
-  padding: rem; }
+  padding: 5rem; }
 
 section h4,
 article h4 {
@@ -92,156 +93,51 @@ article h6 {
   font-size: 1rem;
   padding: 0.1rem; }
 
+.galery, .galery2 {
+  padding-left: 10%;
+  margin-top: 2%; }
+
 .galeria {
-  width: 28rem;
-  height: 25rem;
+  width: 22rem;
+  height: 22rem;
   overflow: hidden;
   border-radius: 100%; }
+  @media (max-width: 992px) {
+    .galeria {
+      width: 18rem;
+      height: 18rem; } }
+  @media (max-width: 992px) {
+    .galeria {
+      width: 15rem;
+      height: 15rem; } }
 
 .promo {
-  width: 28rem;
-  height: 25rem;
+  width: 22rem;
+  height: 22rem;
   transition: all linear 1s; }
   @media (max-width: 992px) {
     .promo {
-      width: 24rem;
-      height: 24rem; } }
+      width: 18rem;
+      height: 18rem; } }
   @media (max-width: 576px) {
     .promo {
-      width: 20rem;
-      height: 20rem; } }
+      width: 15rem;
+      height: 15rem; } }
 
 .promo:hover {
   transform: scale(1.4); }
 
+.seccion2 {
+  margin-top: 20%; }
+
 .txt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin: 20px auto;
-  width: 10rem;
-  height: 2rem;
-  background: rgba(255, 255, 255, 0.865);
-  border-radius: 75px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  transition: 1s box-shadow; }
-  .txt p {
-    margin-top: 1rem; }
+  background-color: white;
+  font-size: 2rem;
+  height: 2.5rem; }
 
-.txt:hover {
-  box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1); }
-
-.txt:hover::before, .txt:hover::after {
-  display: block;
-  content: '';
-  position: absolute;
-  width: 10rem;
-  height: 2rem;
-  background: #FDA8CF;
-  border-radius: 50rem;
-  z-index: -1;
-  animation: 1s clockwise infinite; }
-
-.txt:hover:after {
-  background: #F3CE5E;
-  animation: 2s counterclockwise infinite; }
-
-@keyframes clockwise {
-  0% {
-    top: -5px;
-    left: 0; }
-  12% {
-    top: -2px;
-    left: 2px; }
-  25% {
-    top: 0;
-    left: 5px; }
-  37% {
-    top: 2px;
-    left: 2px; }
-  50% {
-    top: 5px;
-    left: 0; }
-  62% {
-    top: 2px;
-    left: -2px; }
-  75% {
-    top: 0;
-    left: -5px; }
-  87% {
-    top: -2px;
-    left: -2px; }
-  100% {
-    top: -5px;
-    left: 0; } }
-
-@keyframes counterclockwise {
-  0% {
-    top: -5px;
-    right: 0; }
-  12% {
-    top: -2px;
-    right: 2px; }
-  25% {
-    top: 0;
-    right: 5px; }
-  37% {
-    top: 2px;
-    right: 2px; }
-  50% {
-    top: 5px;
-    right: 0; }
-  62% {
-    top: 2px;
-    right: -2px; }
-  75% {
-    top: 0;
-    right: -5px; }
-  87% {
-    top: -2px;
-    right: -2px; }
-  100% {
-    top: -5px;
-    right: 0; } }
-
-@media (max-width: 992px) {
-  .multimedia {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  h3 {
-    font-size: 3rem; } }
-
-article {
-  display: flex;
-  flex-direction: column;
-  align-content: center; }
-  article table {
-    color: white;
-    font-size: 1em;
-    table-layout: fixed;
-    border-collapse: collapse;
-    margin-left: 1em; }
-  article thead {
-    background: rgba(34, 34, 216, 0.5); }
-  article th {
-    padding: 1em 1.4em;
-    font-weight: 700;
-    text-transform: uppercase; }
-    @media (max-width: 576px) {
-      article th {
-        padding: 0.3em 0.5em; } }
-  article td {
-    padding: .1em;
-    border-bottom: solid 1px rgba(211, 35, 35, 0.4); }
-  article tbody tr {
-    cursor: pointer; }
-  article tbody tr:hover {
-    background-color: rgba(150, 21, 21, 0.7); }
+.anima {
+  width: 75%;
+  text-align: right; }
 
 .box {
   padding-left: 6rem;
@@ -428,7 +324,9 @@ ul.publi li:target {
   border-radius: 1rem;
   border: 0.2rem solid rgba(82, 15, 217, 0.18);
   margin-top: 1rem;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  box-sizing: border-box;
+  list-style-type: nonw; }
   .info .detalle .lee {
     padding-top: 0.1rem;
     color: white;
