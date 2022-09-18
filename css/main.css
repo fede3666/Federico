@@ -13,7 +13,7 @@
   margin: 0%; }
 
 body {
-  background: url(../imagnes/asets/asqw.png);
+  background: url(../imagnes/asets/background.jpg);
   overflow-x: hidden;
   text-align: center;
   text-transform: capitalize; }
@@ -31,7 +31,8 @@ body {
 
 /*footer*/
 footer {
-  padding-top: 5rem; }
+  padding-top: 1rem;
+  background-color: rgba(6, 6, 6, 0.657); }
 
 .motivacion {
   color: white;
@@ -147,111 +148,33 @@ article h6 {
   height: 10em; }
 
 .frase {
-  padding-left: 5rem;
   color: white;
   font-size: 1.5rem;
   text-align: right;
   width: 80%; }
 
-/*productos*/
-.car__ventas .contiene {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat 4, 180px;
-  justify-content: space-around;
-  align-items: center; }
-  @media (max-width: 992px) {
-    .car__ventas .contiene {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: 1fr 1fr 1fr;
-      justify-items: center; } }
-  @media (max-width: 768px) {
-    .car__ventas .contiene {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: 1fr 1fr;
-      justify-items: center; } }
-  @media (max-width: 576px) {
-    .car__ventas .contiene {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: 1fr;
-      justify-items: center; } }
+.encabezado {
+  color: white; }
 
-.car__ventas .contiene2 {
-  display: grid;
-  gap: 1.2rem;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat 4, 180px;
-  justify-content: space-around; }
-  @media (max-width: 992px) {
-    .car__ventas .contiene2 {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: 1fr 1fr 1fr;
-      justify-items: center; } }
-  @media (max-width: 768px) {
-    .car__ventas .contiene2 {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: 1fr 1fr;
-      justify-items: center; } }
-  @media (max-width: 576px) {
-    .car__ventas .contiene2 {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: 1fr;
-      justify-items: center; } }
-
-.produc__graf {
-  font-size: 1rem;
-  color: coral; }
-
-.contiene img {
-  height: 12rem;
-  width: 12rem;
-  font-size: 1rem;
-  border-radius: 3rem; }
-
-.contiene2 img {
-  height: 12rem;
-  width: 12rem;
-  font-size: o 0.9rem;
-  border-radius: 3rem; }
-
-.card {
-  height: 20rem;
-  width: 15rem;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 1px 2px 7px 5px #9c9a9a;
-  border-radius: 3rem;
-  transition: all 0.8s linear; }
-
-.card:hover {
-  transform: scale(1.2); }
-
-.card-venta {
-  color: black;
-  font-size: 1rem; }
-  .card-venta ol {
-    list-style: none;
-    text-decoration: none; }
-  .card-venta link {
-    list-style: none; }
-
-.car__ventas .butom:hover {
-  font-size: 1rem;
-  background-color: #cf4d4d;
-  width: 5rem;
-  border: solid 1px #bd1a1a;
-  box-shadow: 1px 2px 7px 5px #9c9a9a;
-  transform: translateZ(-3px);
-  transition: all 0.7s ease; }
+.card1 {
+  background: linear-gradient(2deg, rgba(0, 255, 76, 0.683), rgba(7, 211, 247, 0.52));
+  width: 13.5rem;
+  height: 25.5rem;
+  border: solid 0.3rem;
+  border-radius: 0.9rem;
+  box-shadow: 1px 2px 7px 5px #5855b3; }
+  .card1 p {
+    font-size: 0.6rem;
+    color: white;
+    padding-top: 0.1rem;
+    margin: 0%;
+    text-align: left;
+    font-family: Roboto Mono; }
+  .card1 .product {
+    width: 10rem;
+    height: 12rem;
+    padding: 0%;
+    margin: 0%; }
 
 /*contactos*/
 .msn {

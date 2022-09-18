@@ -1,0 +1,8 @@
+@mixin card {
+    background: linear-gradient(2deg, rgba(0, 255, 76, 0.683), rgba(7, 211, 247, 0.52));
+    width: 13.5rem;
+    height: 25.5rem;
+    border: solid 0.3rem;
+    border-radius: 0.9rem;
+    box-shadow: 1px 2px 7px 5px rgb(88, 85, 179);
+}
