@@ -3,13 +3,16 @@
 .title {
     color: white;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-size: 1.4rem;
 }
 
 .clientes h4 {
-    color: rgb(21, 20, 20);
-    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
 }
 
@@ -91,7 +94,7 @@ button:focus {
 
 .flip-container {
     background-color: transparent;
-    width: 15rem;
+    width: 13rem;
     height: 15rem;
     perspective: 1000px;
 }

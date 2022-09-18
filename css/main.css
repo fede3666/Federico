@@ -13,9 +13,10 @@
   margin: 0%; }
 
 body {
-  background: no-repeat;
-  background-attachment: cover;
-  background-color: #a4d3fd;
+  background: url(../imagnes/asets/asqw.jpg);
+  background: cover;
+  background-image: no-repeat;
+  overflow-x: hidden;
   text-align: center;
   text-transform: capitalize; }
 
@@ -31,6 +32,9 @@ body {
     border-radius: 100%; }
 
 /*footer*/
+footer {
+  padding-top: 5rem; }
+
 .motivacion {
   color: white;
   font-size: 2em;
@@ -433,12 +437,15 @@ ul.publi li:target {
 .title {
   color: white;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 1.4rem; }
 
 .clientes h4 {
-  color: #151414;
-  font-size: 1.9rem; }
+  color: white;
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
 
 .reg {
   font-size: 3rem;
@@ -504,7 +511,7 @@ button:focus {
 
 .flip-container {
   background-color: transparent;
-  width: 15rem;
+  width: 13rem;
   height: 15rem;
   perspective: 1000px; }
 
