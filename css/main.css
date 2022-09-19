@@ -156,6 +156,9 @@ article h6 {
 
 .encabezado {
   color: white; }
+  .encabezado h2 {
+    padding: 0%;
+    margin: 0%; }
 
 .card1 {
   background: linear-gradient(2deg, rgba(0, 255, 76, 0.683), rgba(7, 211, 247, 0.52));
@@ -326,17 +329,17 @@ article h6 {
   color: white; }
 
 .inicia, .continua, .firma {
-  color: black;
+  color: white;
   font-family: Playfair Display;
   font-size: 1.2rem;
   text-align: center;
   padding-bottom: 0.5em; }
 
 .continua {
-  color: black; }
+  color: white; }
 
 .firma {
-  color: black; }
+  color: white; }
 
 .pictur {
   width: 20rem;
@@ -403,7 +406,8 @@ article h6 {
   padding: 0%; }
 
 .reg2 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  padding: 0%; }
 
 @media (max-width: 768px) {
   .one {
@@ -419,7 +423,8 @@ article h6 {
   border-radius: 1rem;
   border: 0.2rem solid rgba(82, 15, 217, 0.18);
   margin-top: 1rem;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  box-sizing: border-box; }
 
 .containe {
   padding-left: 1.5rem;

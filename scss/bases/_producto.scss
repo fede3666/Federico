@@ -1,5 +1,11 @@
+
 .encabezado{
     color: white;
+h2{
+    padding: 0%;
+    margin: 0%;
+}
+
 }
 .card1{
     @include card;

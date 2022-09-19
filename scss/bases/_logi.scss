@@ -23,6 +23,8 @@
 
 .reg2 {
     font-size: 2.5rem;
+    padding: 0%;
+
 
 }
 
@@ -43,6 +45,7 @@
     border: 0.2rem solid rgba(82, 15, 217, 0.18);
     margin-top: 1rem;
     padding-left: 1rem;
+    box-sizing: border-box;
 }
 
 .containe {
@@ -62,14 +65,16 @@
     font-size: 0.6rem;
     color: rgb(255, 255, 255);
 
-   
+
 }
+
 .containe button:hover,
 button:focus {
     background: #02023c;
     color: white;
     font-size: 0.9rem;
 }
+
 .registro button {
     height: 1.5rem;
     width: 40%;
@@ -77,14 +82,15 @@ button:focus {
     font-size: 0.6rem;
     color: rgb(255, 255, 255);
 
-    
+
 }
+
 .registro button:hover,
-    button:focus {
-        background: #02023c;
-        color: white;
-        font-size: 0.9rem;
-    }
+button:focus {
+    background: #02023c;
+    color: white;
+    font-size: 0.9rem;
+}
 
 /*card clientes*/
 .retrato {
