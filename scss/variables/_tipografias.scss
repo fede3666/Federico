@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200;1,300;1,400;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 
 @mixin namestyle {
     
@@ -11,5 +11,6 @@
 $primary-grafia: Josefin Sans;
 $secundary-grafia: Rampart One;
 $terciary-grafia: Anton;
+$for-grafia:Playfair Display;
 $quintuple-grafia: Edu QLD Beginner;
 $sexta-grafia: Roboto Mono;

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
 /*cuerpo*/
 .navega {
   background-color: #0b8df0;
@@ -180,6 +181,11 @@ article h6 {
 .msn {
   display: flex;
   justify-content: space-around; }
+  .msn h1 {
+    color: white;
+    font-size: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
 
 .chat {
   background: rgba(241, 96, 96, 0.4);
@@ -189,7 +195,81 @@ article h6 {
   border-radius: 1rem;
   border: 0.2rem solid rgba(82, 15, 217, 0.18);
   margin-top: 1rem;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  box-sizing: border-box; }
+  .chat h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: 300; }
+  .chat #contact-form {
+    max-width: 1208px;
+    max-width: 75.5rem;
+    margin: 0 auto; }
+  .chat #contact, .chat label, .chat input[name="submit"] {
+    position: relative; }
+  .chat label > span, .chat input, .chat textarea, .chat button {
+    box-sizing: border-box; }
+  .chat label {
+    display: block; }
+  .chat label > span {
+    display: none; }
+  .chat input, .chat textarea, .chat button {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    font: 300 100%/1.2 Ubuntu, sans-serif; }
+  .chat input[type="text"], .chat input[type="email"], .chat textarea {
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none; }
+  .chat input.invalid, .chat textarea.invalid {
+    border-color: #ffffff; }
+  .chat textarea {
+    height: 6em; }
+  .chat input[type="submit"], .chat button {
+    background: #a7cd80;
+    color: #333; }
+  .chat input[type="submit"]:hover, .chat button:hover {
+    background: #91b36f; }
+  @media screen and (min-width: 30em) {
+    .chat #contact-form h2 {
+      margin-left: 26.3736%;
+      font-size: 2em;
+      line-height: 1.5; }
+    .chat label > span {
+      color: white;
+      vertical-align: top;
+      display: inline-block;
+      width: 26.3736%;
+      padding: 0.5em;
+      border: 1px solid transparent;
+      text-align: right; }
+    .chat input, .chat textarea, .chat button {
+      width: 73.6263%;
+      line-height: 1.5; }
+    .chat textarea {
+      height: 10em; }
+    .chat input[type="submit"], .chat button {
+      margin-left: 26.3736%; } }
+  @media screen and (min-width: 48em) {
+    .chat #contact-form {
+      text-align: justify;
+      line-height: 0; }
+    .chat #contact-form:after {
+      content: '';
+      display: inline-block;
+      width: 100%; }
+    .chat #contact-form h2 {
+      margin-left: 17.2661%; }
+    .chat #contact-form form, .chat #contact-form aside {
+      vertical-align: top;
+      display: inline-block;
+      width: 65.4676%;
+      text-align: left;
+      line-height: 1.5; }
+    .chat #contact-form aside {
+      width: 30.9353%; } }
 
 .info {
   background: rgba(241, 96, 96, 0.4);
@@ -202,20 +282,17 @@ article h6 {
   padding-left: 1rem;
   box-sizing: border-box;
   list-style-type: nonw; }
-  .info .detalle .lee {
-    padding-top: 0.1rem;
+  .info .lear {
+    padding-top: 2rem;
+    font-size: 3rem; }
+  .info p {
+    text-align: left;
     color: white;
-    text-align: left; }
-    .info .detalle .lee ol .lee {
-      list-style: none;
-      text-decoration: none; }
-    .info .detalle .lee li .lee {
-      margin-top: 1rem;
-      list-style-type: none; }
+    font-family: Playfair Display; }
 
 .texs h5 {
   font-size: 3rem;
-  color: red;
+  color: white;
   padding: 1rem; }
 
 .operadora {
@@ -224,7 +301,9 @@ article h6 {
 
 .gps .map {
   border-radius: 4rem;
-  opacity: 0.6; }
+  opacity: 0.6;
+  margin-top: 2rem;
+  margin-block-start: 2rem; }
 
 @media (max-width: 576px) {
   iframe {
@@ -247,17 +326,17 @@ article h6 {
   color: white; }
 
 .inicia, .continua, .firma {
-  color: #dfd8d8;
-  font-family: Josefin Sans;
+  color: black;
+  font-family: Playfair Display;
   font-size: 1.2rem;
   text-align: center;
   padding-bottom: 0.5em; }
 
 .continua {
-  color: #f9cfcf; }
+  color: black; }
 
 .firma {
-  color: #fdecec; }
+  color: black; }
 
 .pictur {
   width: 20rem;
@@ -295,9 +374,10 @@ article h6 {
     height: 15rem; }
   .presentacion p {
     font-size: 0.8rem;
-    color: red;
+    color: white;
     text-align: center;
-    padding-top: 0.4rem; }
+    padding-top: 0.4rem;
+    font-family: Josefin Sans; }
   .presentacion .formacion {
     color: white;
     text-align: center;
