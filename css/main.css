@@ -14,10 +14,12 @@
   margin: 0%; }
 
 body {
-  background: url(../imagnes/asets/background.jpg);
+  background: url(../imagnes/ass.jpg);
   overflow-x: hidden;
   text-align: center;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  background-size: cover;
+  object-fit: cover; }
 
 /*header*/
 .logo {
