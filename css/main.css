@@ -6,8 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
 /*cuerpo*/
 .navega {
-  background-color: #0b8df0;
+  background-color: #0670c0;
   width: 100%; }
+  .navega .boton {
+    background-color: #21e774; }
 
 * {
   padding: 0%;
