@@ -230,10 +230,12 @@ article h6 {
   .chat textarea {
     height: 6em; }
   .chat input[type="submit"], .chat button {
-    background: #a7cd80;
-    color: #333; }
+    text-transform: capitalize;
+    background: #0d32b8;
+    color: white; }
   .chat input[type="submit"]:hover, .chat button:hover {
-    background: #91b36f; }
+    background: #091fc4;
+    color: black; }
   @media screen and (min-width: 30em) {
     .chat #contact-form h2 {
       margin-left: 26.3736%;

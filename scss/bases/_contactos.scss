@@ -61,11 +61,13 @@
         height: 6em;
       }
       input[type="submit"], button {
-        background: #a7cd80;
-        color: #333;
+        text-transform: capitalize;
+        background: #0d32b8;
+        color: rgb(255, 255, 255);
       }
       input[type="submit"]:hover, button:hover {
-        background: #91b36f;
+        background: #091fc4;
+        color: black;
       }
       @media screen and (min-width: 30em) {
         #contact-form h2 {
